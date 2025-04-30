@@ -1,11 +1,11 @@
 export default function healthIndicator(player) {
     if (player.health > 50) {
-      return 'healthy';
+        return "healthy";
     }
     if (player.health < 15) {
-      return 'critical';
+        return "critical";
     }
-    return 'wounded';
-  }
+    return "wounded";
+}
   
-  console.log('app worked');
+console.log("app worked");
